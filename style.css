@@ -24,7 +24,7 @@ h2 {
   font-size: 4.4rem;
   margin-top: 2.8rem;
   text-transform: capitalize;
-  margin-bottom: 4.8rem;
+  margin-bottom: 2.8rem;
 }
 
 /*  Code */
@@ -38,6 +38,7 @@ h2 {
   min-width: 100px;
   font-family: inherit;
   cursor: text;
+  margin-bottom: 2.8rem;
 }
 
 .tolken-comment {

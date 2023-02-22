@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="/GitHub-Icon.png" />
 
     <!-- Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -30,11 +31,23 @@
           </p>
           <p class="tolken-code">git init</p>
           <p class="tolken-comment">
-            /* Step 3: adds new files to Git staging area */
+            /* Step 3: add new files to Git staging area */
           </p>
           <p class="tolken-code">git add</p>
-          <p class="tolken-comment">/* Step 4: adds entire project */</p>
+          <p class="tolken-comment">/* Step 4: add entire project */</p>
           <p class="tolken-code">git add .</p>
+          <p class="tolken-comment">/* Step 5: creates a new commit */</p>
+          <p class="tolken-code">git commit -m "first commit"</p>
+          <p class="tolken-comment">/* Step 6: push to github */</p>
+          <p class="tolken-code">
+            git remote add origin git@github.com:your-profile/repo-name.git
+            <br />
+            <br />
+            git branch -M main
+            <br />
+            <br />
+            git push -u origin main
+          </p>
         </code>
       </div>
     </div>
