@@ -26,22 +26,37 @@
             /* Step 1: remove existing git reposit */
           </p>
           <p class="tolken-code">rm -rf .git</p>
+          <!--  -->
           <p class="tolken-comment">
             /* Step 2: create an empty git repository */
           </p>
           <p class="tolken-code">git init</p>
+          <!--  -->
           <p class="tolken-comment">
-            /* Step 3: clone your github repository */
+            /* Step 3: adds new files the git area */
           </p>
-          <p class="tolken-code">git clone (url-to-repository)</p>
-          <p class="tolken-comment">/* Step 4: add entire project */</p>
-          <p class="tolken-code">git add .</p>
+          <p class="tolken-code">git add</p>
           <p class="tolken-comment">
-            /* Step 5: commit changes with message */
+            <!--  -->
+            /* Step 4: adds the entire project to git area */
+          </p>
+          <p class="tolken-code">git add .</p>
+          <!--  -->
+          <p class="tolken-comment">
+            /* Step 5: creates a commit with a message */
           </p>
           <p class="tolken-code">git commit -m "message"</p>
+          <!--  -->
           <p class="tolken-comment">/* Step 6: push all changes */</p>
-          <p class="tolken-code">git push</p>
+          <p class="tolken-code">
+            git remote add origin git@github.com:your-profile/repo-name.git
+            <br />
+            <br />
+            git branch -M main
+            <br />
+            <br />
+            git push -u origin main
+          </p>
         </code>
       </div>
     </div>
